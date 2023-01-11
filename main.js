@@ -141,7 +141,6 @@ function stopAutoSlide(){
     autoSlide=setInterval(nextSlide, 10000);
 }
 
-
 // disabling inspect element
 document.addEventListener("contextmenu", function(e){
     e.preventDefault(); //this prevents right click
